@@ -55,6 +55,12 @@ img {
   left: 0;
   width: 100%;
   z-index: 20;
+
+  background: rgba(0, 40, 90, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .navbar {
